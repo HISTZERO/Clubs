@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "Clubs.Controllers.ClubsController",
+    "Method": "CreateClub",
+    "RelativePath": "api/clubs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clubDto",
+        "Type": "Clubs.DTOs.ClubRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clubs.Controllers.ClubsController",
+    "Method": "GetClubById",
+    "RelativePath": "api/clubs/{clubId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clubId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clubs.Controllers.ClubsController",
+    "Method": "AddMember",
+    "RelativePath": "api/clubs/{clubId}/members",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clubId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "player",
+        "Type": "Clubs.DTOs.PlayerRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

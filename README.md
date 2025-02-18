@@ -1,6 +1,6 @@
 # ClubsService source code
 ## **ClubsService - Part 2**
-### 📄 [Part 2.docx](#)
+### 📄 [Part 2.md](#)
 
 ## Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)

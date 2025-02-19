@@ -55,29 +55,6 @@
    This command builds and runs all tests in your test project and displays the results in the terminal or Visual Studio's Test Explorer.
 
 ### Manual Testing
-2. **Test via Swagger or Postman:**
+1. **Test via Swagger or Postman:**
    - Open [Swagger UI](http://localhost:7069/swagger) or use Postman.
-   - **Example for Creating a Club:**
-     - **Request Headers:**
-       ```
-       Content-Type: application/json
-       Accept: application/json
-       Player-ID: 123
-       ```
-     - **Request Body:**
-       ```json
-       {
-         "name": "My Awesome Club"
-       }
-       ```
-     - **Expected Response:**
-       - **Status Code:** 201 Created
-       - **Response Body:**
-         ```json
-         {
-           "id": "5e324948-6a88-40e6-8b09-578d061de816",
-           "members": [123]
-         }
-         ```
-       - **Location Header:** `/api/clubs/{clubId}`
 
